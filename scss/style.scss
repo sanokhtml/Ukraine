@@ -1,0 +1,2003 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-width: 100%;
+
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+        padding: 0 30px;
+
+        .info{
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .logo_a{
+                width: 80%;
+                grid-column: 1/2;
+                grid-row: 1/2;
+                display: flex;
+                justify-content: space-between;
+    
+                img{
+                    height: 100px;
+                    width: 86px;
+                }
+    
+                .logo_a-a{
+                    width: 50%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 50px;
+    
+                    a{
+                        font-family: Jura;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color:#006AA7;
+                        text-decoration: none;
+    
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+    
+            .section_info{
+                grid-column: 1/2;
+                grid-row: 2/3;
+    
+                h1{
+                    font-family: Jura;
+                    font-size: 100px;
+                    font-weight: 700;
+                }
+
+                h2{
+                    font-family: Jura;
+                    font-size: 50px;
+                    font-weight: 700;
+                }
+
+                p{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 400;
+                    width: 70%;
+                }
+
+                a{
+                    display: block;
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 700;
+                    background: #006AA7;
+                    color: white;
+                    width: 30%;
+                    height: 17%;
+                    text-decoration: none;
+                    padding-top: 17px;
+                    text-align: center;
+                    margin-top: 50px;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                    &:hover{
+                        background: #024D79;
+                    }
+                }
+            }
+        }
+        
+        img{
+            grid-column: 2/3;
+            grid-row: 1/3;
+            border-radius: 0px 0px 268px 268px;
+        }
+    }
+    
+    .main{
+        width: 100%;
+
+        .past{
+            width: 100%;
+            background: #F5F5F5;
+            text-align: center;
+            padding: 30px 70px 30px 70px;
+
+            h3{
+                font-family: Jura;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            
+            h2{
+                font-family: Jura;
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            .past_gallery_cont{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+
+                .past_gallery{
+                    text-align: start;
+                    background-color: #FFFFFF;
+                    width: 20%;
+                    display: flex;
+                    padding: 30px 20px;
+                    flex-direction: column;
+
+                    &:hover{
+                        background: #006AA7;
+                        transition: 0.5s;
+                        color:#FFFFFF;
+                    }
+
+                    img{
+                        width: 50px;
+                    }
+
+                    h4{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin: 10px 0;
+                    }   
+
+                    p{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+
+                    .more{
+                        display: flex;
+                        align-items: center;
+                        align-self: flex-end;
+                        margin-top: 20px;
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 400;
+
+                        a{
+                            img{
+                                width: 30px;
+                                margin-top: 5px;
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .kozaki{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 70px 50px 70px;
+
+            h2{
+                font-family: Jura;
+                font-size: 19px;
+                font-weight: 600;
+            }
+
+            .kozak_info_cont{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 25px;
+                
+                .kozak_info_1{
+                    display: flex;
+                    width: 49%;
+                    background: #006AA7;
+                    color: #FFFFFF;
+                    padding: 30px;
+                    border-radius: 5px;
+
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+
+                        h3{
+                            font-family: Jura;
+                            font-size: 25px;
+                            font-weight: 700;
+                            margin-bottom: 15px;
+                        }
+
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .kozak_info_2{
+                    width: 24%;
+                    border: 1px solid #808080;
+                    background: #F5F5F5;
+                    border-radius: 5px;
+                    padding: 10px;
+
+                    h4{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-bottom: 10px;
+                    }
+
+                    p{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+
+                .kozak_info_3{
+                    width: 24%;
+                    border: 1px solid #808080;
+                    background: #F5F5F5;
+                    border-radius: 5px;
+                    padding: 10px;
+
+                    h4{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-bottom: 10px;
+                    }
+
+                    p{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            a{
+                display: block;
+                width: 17%;
+                border: 1px solid #000000;
+                font-family: Jura;
+                font-size: 16px;
+                font-weight: 600;
+                text-decoration: none;
+                border-radius: 10px;
+                padding-top: 10px;
+                padding-bottom: 15px;
+                text-align: center;
+                color: #000000;
+                margin-top: 35px;
+                transition: 0.5s;
+                background: #F9C00D;
+                align-self: flex-start;
+
+                &:hover{
+                   background: #BD930A;
+                }
+            }
+        }
+
+        .sky{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 30px 40px 30px;
+            background: #F9C00D;
+
+            h4{
+                font-family: Jura;
+                font-size: 19px;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+
+            .sky_info{
+                display: flex;
+                align-items: center;
+
+                .text{
+                    display: flex;
+                    flex-direction: column;
+
+                    .text_sky{
+                        font-family: Jura;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+
+                    .text_sky_1{
+                        margin-bottom: 25px;
+                    }
+
+                    .text_sky_2{
+                        margin-bottom: 25px;
+                    }
+
+                    a{
+                        display: block;
+                        width: 20%;
+                        border: 1px solid #000000;
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-decoration: none;
+                        border-radius: 10px;
+                        padding-top: 10px;
+                        padding-bottom: 15px;
+                        text-align: center;
+                        color: #000000;
+                        margin-top: 35px;
+                        transition: 0.5s;
+
+                        &:hover{
+                            background: #BD930A;
+                        }
+                    }
+                }
+
+                img{
+                    margin-left: 35px;
+                }
+            }
+        }
+
+        .we_today{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 70px 100px 70px 70px;
+
+            h4{
+                font-family: Jura;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            h3{
+                font-family: Jura;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .who_we_today{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                padding: 10px;
+
+                .box1{
+                    border: 1px solid #000000;
+                    padding: 10px;
+                    border-radius: 10px;
+                    width: 22%;
+
+                    p{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            h2{
+                font-family: Jura;
+                font-size: 19px;
+                font-weight: 700;
+                margin-top: 40px;
+                color: #000000;
+                margin-bottom: 10px;
+            }
+
+            .foto_gallery{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .president{
+                width: 70%;
+                background-color: #006AA7;
+                align-self: center;
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                padding: 50px 55px;
+                align-items: center;
+                margin-bottom: 55px;
+
+                p{
+                    font-family: Jura;
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: #FFFFFF;
+                    width: 60%;
+                }
+
+                img{
+                    border-radius: 100%;
+                }
+            }
+
+            h3{
+                font-family: Jura;
+                font-size: 19px;
+                font-weight: 700;
+            }
+
+            h4{
+                font-family: Jura;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            .ukr_futyre{
+                margin-top: 15px;
+                margin-bottom: 55px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .ukr_futyre_box{
+                    width: 33%;
+                    background: #F9C00D;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    border-radius: 5px;
+
+                    img{
+                        margin-right: 20px;
+                    }
+
+                    p{
+                        color: #000000;
+                        font-family: Jura;
+                        font-size: 14px;
+                        font-weight: 500;
+                        width: 55%;
+                    }
+                }
+            }
+        }
+
+        .futureXpast{
+            width: 100%;
+            padding: 50px 80px;
+            display: flex;
+            flex-direction: column;
+            background-color: #F5F5F5;
+
+            h3{
+                font-family: Jura;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            h4{
+                font-family: Jura;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .future_line{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 30px;
+                justify-content: space-between;
+
+                .future_line_box_mini{
+                    width: 31%;
+                    background: #FFFFFF;
+                    padding: 15px;
+                    transition: 0.5s;
+                    margin-bottom: 25px;
+
+                    img{
+                        margin-bottom: 15px;
+                    }
+
+                    p{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+
+                    &:hover{
+                        background: #006AA7;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .future_line_box_big{
+                    width: 48%;
+                    background: #FFFFFF;
+                    padding: 15px;
+                    transition: 0.5s;
+                    margin-bottom: 60px;
+
+                    img{
+                        margin-bottom: 15px;
+                    }
+
+                    p{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+
+                    &:hover{
+                        background: #006AA7;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            h6{
+                font-family: Jura;
+                font-size: 19px;
+                font-weight: 500;
+                text-align: center;
+            }
+
+            .futureXpast_foto_gallery{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 25px;
+            }
+        }
+
+        .famous_people{
+            width: 100%;
+            background-color: #F5F5F5;
+            padding: 20px 80px;
+
+            h3{
+                font-family: Jura;
+                font-size: 19px;
+                font-weight: 500;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+
+            .famous_people_boxs{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .famous_people_box{
+                    width: 49%;
+                    display: flex;
+                    padding: 15px 20px;
+                    margin-bottom: 20px;
+                    background: #FFFFFF;
+
+                    img{
+                        border-radius: 100%;
+                    }
+
+                    .famous_people_box_text{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-left: 15px;
+                        width: 65%;
+
+                        h5{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #006AA7;
+        padding: 20px;
+
+        a{
+            font-family: Jura;
+            font-size: 19px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+    }
+}
+
+@media (min-width:600px) and (max-width:1024px) {
+    .container{
+        min-width: 100%;
+        margin: 0 auto;
+    
+        .header{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 70px;
+            padding: 0 30px;
+    
+            .info{
+                height: 50vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                .logo_a{
+                    width: 100%;
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+        
+                    img{
+                        height: 100px;
+                        width: 86px;
+                    }
+        
+                    .logo_a-a{
+                        width: 50%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 50px;
+        
+                        a{
+                            font-family: Jura;
+                            font-size: 12px;
+                            font-weight: 700;
+                            color:#006AA7;
+                            text-decoration: none;
+        
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+        
+                .section_info{
+                    grid-column: 1/2;
+                    grid-row: 2/3;
+        
+                    h1{
+                        font-family: Jura;
+                        font-size: 100px;
+                        font-weight: 700;
+                    }
+    
+                    h2{
+                        font-family: Jura;
+                        font-size: 50px;
+                        font-weight: 700;
+                    }
+    
+                    p{
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 400;
+                        width: 70%;
+                    }
+    
+                    a{
+                        display: block;
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 700;
+                        background: #006AA7;
+                        color: white;
+                        width: 30%;
+                        height: 17%;
+                        text-decoration: none;
+                        padding-top: 17px;
+                        text-align: center;
+                        margin-top: 50px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+                        &:hover{
+                            background: #024D79;
+                        }
+                    }
+                }
+            }
+            
+            img{
+                grid-column: 2/3;
+                grid-row: 1/3;
+                margin-top: 50px;
+                border-radius: 0px 0px 268px 268px;
+            }
+        }
+        
+        .main{
+            width: 100%;
+    
+            .past{
+                width: 100%;
+                background: #F5F5F5;
+                text-align: center;
+                padding: 30px 70px 30px 70px;
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                
+                h2{
+                    font-family: Jura;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+    
+                .past_gallery_cont{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    margin-top: 30px;
+    
+                    .past_gallery{
+                        text-align: start;
+                        background-color: #FFFFFF;
+                        width: 45%;
+                        display: flex;
+                        padding: 30px 20px;
+                        flex-direction: column;
+                        margin-bottom: 20px;
+    
+                        &:hover{
+                            background: #006AA7;
+                            transition: 0.5s;
+                            color:#FFFFFF;
+                        }
+    
+                        img{
+                            width: 50px;
+                        }
+    
+                        h4{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 600;
+                            margin: 10px 0;
+                        }   
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+    
+                        .more{
+                            display: flex;
+                            align-items: center;
+                            align-self: flex-end;
+                            margin-top: 20px;
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 400;
+    
+                            a{
+                                img{
+                                    width: 30px;
+                                    margin-top: 5px;
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .kozaki{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 30px 70px 50px 70px;
+    
+                h2{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 600;
+                }
+    
+                .kozak_info_cont{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 25px;
+                    flex-wrap: wrap;
+                    
+                    .kozak_info_1{
+                        display: flex;
+                        width: 80%;
+                        background: #006AA7;
+                        color: #FFFFFF;
+                        padding: 30px;
+                        border-radius: 5px;
+                        margin-bottom: 20px;
+    
+                        .text{
+                            display: flex;
+                            flex-direction: column;
+    
+                            h3{
+                                font-family: Jura;
+                                font-size: 25px;
+                                font-weight: 700;
+                                margin-bottom: 15px;
+                            }
+    
+                            p{
+                                font-family: Jura;
+                                font-size: 16px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+    
+                    .kozak_info_2{
+                        width: 38%;
+                        border: 1px solid #808080;
+                        background: #F5F5F5;
+                        border-radius: 5px;
+                        padding: 10px;
+                        margin-right: 20px;
+    
+                        h4{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                        }
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+    
+                    .kozak_info_3{
+                        width: 38%;
+                        border: 1px solid #808080;
+                        background: #F5F5F5;
+                        border-radius: 5px;
+                        padding: 10px;
+    
+                        h4{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                        }
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+    
+            .sky{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 30px 30px 40px 30px;
+                background: #F9C00D;
+    
+                h4{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 600;
+                    margin-bottom: 30px;
+                }
+    
+                .sky_info{
+                    display: flex;
+                    align-items: center;
+    
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+    
+                        .text_sky{
+                            font-family: Jura;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+    
+                        .text_sky_1{
+                            margin-bottom: 25px;
+                        }
+    
+                        .text_sky_2{
+                            margin-bottom: 25px;
+                        }
+    
+                        a{
+                            display: block;
+                            width: 40%;
+                            border: 1px solid #000000;
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 600;
+                            text-decoration: none;
+                            border-radius: 10px;
+                            padding-top: 10px;
+                            padding-bottom: 15px;
+                            text-align: center;
+                            color: #000000;
+                            margin-top: 35px;
+                            transition: 0.5s;
+    
+                            &:hover{
+                                background: #BD930A;
+                            }
+                        }
+                    }
+    
+                    img{
+                        margin-left: 35px;
+                    }
+                }
+            }
+    
+            .we_today{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 70px 100px 70px 70px;
+    
+                h4{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 24px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+    
+                .who_we_today{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    padding: 10px;
+    
+                    .box1{
+                        border: 1px solid #000000;
+                        padding: 10px;
+                        border-radius: 10px;
+                        width: 49%;
+                        margin-bottom: 20px;
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+    
+                h2{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 700;
+                    margin-top: 40px;
+                    color: #000000;
+                    margin-bottom: 10px;
+                }
+    
+                .foto_gallery{
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3,1fr);
+                    padding: 0 70px;
+                    
+                    img:nth-child(1){
+                        grid-column: 1/2;
+                        grid-row: 1/2;
+                    }
+                    img:nth-child(2){
+                        grid-column: 3/4;
+                        grid-row: 1/2;
+                    }
+                    img:nth-child(3){
+                        grid-column: 2/3;
+                        grid-row: 2/3;
+                    }
+                    img:nth-child(4){
+                        grid-column: 1/2;
+                        grid-row: 3/4;
+                    }
+                    img:nth-child(5){
+                        grid-column: 3/4;
+                        grid-row: 3/4;
+                    }
+                }
+    
+                .president{
+                    width: 100%;
+                    background-color: #006AA7;
+                    align-self: center;
+                    margin-top: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 50px 55px;
+                    align-items: center;
+                    margin-bottom: 55px;
+    
+                    p{
+                        font-family: Jura;
+                        font-size: 30px;
+                        font-weight: 700;
+                        color: #FFFFFF;
+                        width: 60%;
+                    }
+    
+                    img{
+                        border-radius: 100%;
+                    }
+                }
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 700;
+                }
+    
+                h4{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+    
+                .ukr_futyre{
+                    margin-top: 15px;
+                    margin-bottom: 55px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+    
+                    .ukr_futyre_box{
+                        width: 48%;
+                        background: #F9C00D;
+                        padding: 10px;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 10px;
+                        border-radius: 5px;
+    
+                        img{
+                            margin-right: 20px;
+                        }
+    
+                        p{
+                            color: #000000;
+                            font-family: Jura;
+                            font-size: 18px;
+                            font-weight: 500;
+                            width: 55%;
+                        }
+                    }
+                }
+            }
+    
+            .futureXpast{
+                width: 100%;
+                padding: 50px 80px;
+                display: flex;
+                flex-direction: column;
+                background-color: #F5F5F5;
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+    
+                h4{
+                    font-family: Jura;
+                    font-size: 24px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+    
+                .future_line{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding-top: 30px;
+                    justify-content: space-between;
+    
+                    .future_line_box_mini{
+                        width: 31%;
+                        background: #FFFFFF;
+                        padding: 15px;
+                        transition: 0.5s;
+                        margin-bottom: 25px;
+    
+                        img{
+                            margin-bottom: 15px;
+                        }
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+    
+                        &:hover{
+                            background: #006AA7;
+                            color: #FFFFFF;
+                        }
+                    }
+    
+                    .future_line_box_big{
+                        width: 48%;
+                        background: #FFFFFF;
+                        padding: 15px;
+                        transition: 0.5s;
+                        margin-bottom: 60px;
+    
+                        img{
+                            margin-bottom: 15px;
+                        }
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+    
+                        &:hover{
+                            background: #006AA7;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+    
+                h6{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+    
+                .futureXpast_foto_gallery{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(4, 1fr);
+                    margin-top: 25px;
+
+                    img:nth-child(1){
+                        grid-column: 2/3;
+                        grid-row: 1/2;
+                    }
+                    img:nth-child(2){
+                        grid-column: 3/4;
+                        grid-row: 2/3;
+                    }
+                    img:nth-child(3){
+                        grid-column: 2/3;
+                        grid-row: 3/4;
+                    }
+                    img:nth-child(4){
+                        grid-column: 1/2;
+                        grid-row: 4/5;
+                    }
+                }
+            }
+    
+            .famous_people{
+                width: 100%;
+                background-color: #F5F5F5;
+                padding: 20px 80px;
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 500;
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+    
+                .famous_people_boxs{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+    
+                    .famous_people_box{
+                        width: 49%;
+                        display: flex;
+                        padding: 15px 20px;
+                        margin-bottom: 20px;
+                        background: #FFFFFF;
+    
+                        img{
+                            border-radius: 100%;
+                        }
+    
+                        .famous_people_box_text{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            margin-left: 15px;
+                            width: 65%;
+    
+                            h5{
+                                font-family: Jura;
+                                font-size: 16px;
+                                font-weight: 700;
+                            }
+    
+                            p{
+                                font-family: Jura;
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #006AA7;
+            padding: 20px;
+    
+            a{
+                font-family: Jura;
+                font-size: 19px;
+                font-weight: 700;
+                color: #FFFFFF;
+                text-decoration: none;
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width:599px){
+    .container{
+        min-width: 100%;
+        margin: 0 auto;
+    
+        .header{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 0 30px;
+    
+            .info{
+                height: 55vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                .logo_a{
+                    width: 100%;
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+        
+                    img{
+                        height: 100px;
+                        width: 86px;
+                    }
+        
+                    .logo_a-a{
+                        width: 50%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 50px;
+        
+                        a{
+                            font-family: Jura;
+                            font-size: 12px;
+                            font-weight: 700;
+                            color:#006AA7;
+                            text-decoration: none;
+        
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+        
+                .section_info{
+                    grid-column: 1/2;
+                    grid-row: 2/3;
+        
+                    h1{
+                        font-family: Jura;
+                        font-size: 100px;
+                        font-weight: 700;
+                    }
+    
+                    h2{
+                        font-family: Jura;
+                        font-size: 52px;
+                        font-weight: 700;
+                    }
+    
+                    p{
+                        font-family: Jura;
+                        font-size: 18px;
+                        font-weight: 400;
+                        width: 70%;
+                    }
+    
+                    a{
+                        display: block;
+                        font-family: Jura;
+                        font-size: 16px;
+                        font-weight: 700;
+                        background: #006AA7;
+                        color: white;
+                        width: 40%;
+                        height: 14%;
+                        text-decoration: none;
+                        padding-top: 17px;
+                        text-align: center;
+                        margin-top: 50px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+                        &:hover{
+                            background: #024D79;
+                        }
+                    }
+                }
+            }
+            
+            img{
+                grid-column: 2/3;
+                grid-row: 1/3;
+                margin-top: 50px;
+                border-radius: 0px 0px 268px 268px;
+            }
+        }
+        
+        .main{
+            width: 100%;
+    
+            .past{
+                width: 100%;
+                background: #F5F5F5;
+                text-align: center;
+                padding: 30px 70px 30px 70px;
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                
+                h2{
+                    font-family: Jura;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+    
+                .past_gallery_cont{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    margin-top: 30px;
+    
+                    .past_gallery{
+                        text-align: start;
+                        background-color: #FFFFFF;
+                        width: 100%;
+                        display: flex;
+                        padding: 30px 20px;
+                        flex-direction: column;
+                        margin-bottom: 20px;
+    
+                        &:hover{
+                            background: #006AA7;
+                            transition: 0.5s;
+                            color:#FFFFFF;
+                        }
+    
+                        img{
+                            width: 50px;
+                        }
+    
+                        h4{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 600;
+                            margin: 10px 0;
+                        }   
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+    
+                        .more{
+                            display: flex;
+                            align-items: center;
+                            align-self: flex-end;
+                            margin-top: 20px;
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 400;
+    
+                            a{
+                                img{
+                                    width: 30px;
+                                    margin-top: 5px;
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .kozaki{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 30px 70px 50px 70px;
+    
+                h2{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 600;
+                }
+    
+                .kozak_info_cont{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 25px;
+                    flex-wrap: wrap;
+                    
+                    .kozak_info_1{
+                        display: flex;
+                        width: 100%;
+                        background: #006AA7;
+                        color: #FFFFFF;
+                        padding: 30px;
+                        border-radius: 5px;
+                        margin-bottom: 20px;
+    
+                        .text{
+                            display: flex;
+                            flex-direction: column;
+    
+                            h3{
+                                font-family: Jura;
+                                font-size: 25px;
+                                font-weight: 700;
+                                margin-bottom: 15px;
+                            }
+    
+                            p{
+                                font-family: Jura;
+                                font-size: 16px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+    
+                    .kozak_info_2{
+                        width: 100%;
+                        border: 1px solid #808080;
+                        background: #F5F5F5;
+                        border-radius: 5px;
+                        padding: 10px;
+                        margin-bottom: 10px;
+    
+                        h4{
+                            font-family: Jura;
+                            font-size: 18px;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                        }
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+                    }
+    
+                    .kozak_info_3{
+                        width: 100%;
+                        border: 1px solid #808080;
+                        background: #F5F5F5;
+                        border-radius: 5px;
+                        padding: 10px;
+    
+                        h4{
+                            font-family: Jura;
+                            font-size: 18px;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                        }
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                a{
+                    width: 35%;
+                }
+            }
+    
+            .sky{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 30px 30px 40px 30px;
+                background: #F9C00D;
+    
+                h4{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 600;
+                    margin-bottom: 30px;
+                }
+    
+                .sky_info{
+                    display: flex;
+                    flex-direction: column;
+    
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+    
+                        .text_sky{
+                            font-family: Jura;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+    
+                        .text_sky_1{
+                            margin-bottom: 25px;
+                        }
+    
+                        .text_sky_2{
+                            margin-bottom: 25px;
+                        }
+    
+                        a{
+                            display: block;
+                            width: 40%;
+                            border: 1px solid #000000;
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 600;
+                            text-decoration: none;
+                            border-radius: 10px;
+                            padding-top: 10px;
+                            padding-bottom: 15px;
+                            text-align: center;
+                            color: #000000;
+                            margin-top: 35px;
+                            transition: 0.5s;
+    
+                            &:hover{
+                                background: #BD930A;
+                            }
+                        }
+                    }
+    
+                    img{
+                        margin-left: 0;
+                        margin-top: 20px;
+                    }
+                }
+            }
+    
+            .we_today{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 70px 100px 70px 70px;
+    
+                h4{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 24px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+    
+                .who_we_today{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    padding: 10px;
+    
+                    .box1{
+                        border: 1px solid #000000;
+                        padding: 10px;
+                        border-radius: 10px;
+                        width: 100%;
+                        margin-bottom: 20px;
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+    
+                h2{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 700;
+                    margin-top: 40px;
+                    color: #000000;
+                    margin-bottom: 10px;
+                }
+    
+                .foto_gallery{
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(5,1fr);
+                    
+                    img:nth-child(1){
+                        grid-column: 1/2;
+                        grid-row: 1/2;
+                    }
+                    img:nth-child(2){
+                        grid-column: 2/3;
+                        grid-row: 2/3;
+                    }
+                    img:nth-child(3){
+                        grid-column: 1/2;
+                        grid-row: 3/4;
+                    }
+                    img:nth-child(4){
+                        grid-column: 2/3;
+                        grid-row: 4/5;
+                    }
+                    img:nth-child(5){
+                        grid-column: 1/2;
+                        grid-row: 5/6;
+                    }
+                }
+    
+                .president{
+                    width: 100%;
+                    background-color: #006AA7;
+                    align-self: center;
+                    margin-top: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 10px 15px;
+                    align-items: center;
+                    margin-bottom: 55px;
+    
+                    p{
+                        font-family: Jura;
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #FFFFFF;
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+    
+                    img{
+                        border-radius: 100%;
+                    }
+                }
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 700;
+                }
+    
+                h4{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+    
+                .ukr_futyre{
+                    margin-top: 15px;
+                    margin-bottom: 25px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+    
+                    .ukr_futyre_box{
+                        width: 100%;
+                        background: #F9C00D;
+                        padding: 10px;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 10px;
+                        border-radius: 5px;
+    
+                        img{
+                            margin-right: 20px;
+                        }
+    
+                        p{
+                            color: #000000;
+                            font-family: Jura;
+                            font-size: 18px;
+                            font-weight: 500;
+                            width: 55%;
+                        }
+                    }
+                }
+            }
+    
+            .futureXpast{
+                width: 100%;
+                padding: 50px 80px;
+                display: flex;
+                flex-direction: column;
+                background-color: #F5F5F5;
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+    
+                h4{
+                    font-family: Jura;
+                    font-size: 24px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+    
+                .future_line{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding-top: 30px;
+                    justify-content: space-between;
+    
+                    .future_line_box_mini{
+                        width: 100%;
+                        background: #FFFFFF;
+                        padding: 15px;
+                        transition: 0.5s;
+                        margin-bottom: 25px;
+    
+                        img{
+                            margin-bottom: 15px;
+                        }
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+    
+                        &:hover{
+                            background: #006AA7;
+                            color: #FFFFFF;
+                        }
+                    }
+    
+                    .future_line_box_big{
+                        width: 100%;
+                        background: #FFFFFF;
+                        padding: 15px;
+                        transition: 0.5s;
+                        margin-bottom: 60px;
+    
+                        img{
+                            margin-bottom: 15px;
+                        }
+    
+                        p{
+                            font-family: Jura;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+    
+                        &:hover{
+                            background: #006AA7;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+    
+                h6{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+    
+                .futureXpast_foto_gallery{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(4, 1fr);
+                    margin-top: 25px;
+
+                    img{
+                        width: 200px;
+                    }
+
+                    img:nth-child(1){
+                        grid-column: 2/3;
+                        grid-row: 1/2;
+                    }
+                    img:nth-child(2){
+                        grid-column: 1/2;
+                        grid-row: 2/3;
+                    }
+                    img:nth-child(3){
+                        grid-column: 2/3;
+                        grid-row: 3/4;
+                    }
+                    img:nth-child(4){
+                        grid-column: 1/2;
+                        grid-row: 4/5;
+                    }
+                }
+            }
+    
+            .famous_people{
+                width: 100%;
+                background-color: #F5F5F5;
+                padding: 20px 80px;
+    
+                h3{
+                    font-family: Jura;
+                    font-size: 19px;
+                    font-weight: 500;
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+    
+                .famous_people_boxs{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+    
+                    .famous_people_box{
+                        width: 100%;
+                        display: flex;
+                        padding: 15px 20px;
+                        margin-bottom: 20px;
+                        background: #FFFFFF;
+    
+                        img{
+                            border-radius: 100%;
+                        }
+    
+                        .famous_people_box_text{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            margin-left: 15px;
+                            width: 65%;
+    
+                            h5{
+                                font-family: Jura;
+                                font-size: 16px;
+                                font-weight: 700;
+                            }
+    
+                            p{
+                                font-family: Jura;
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #006AA7;
+            padding: 20px;
+    
+            a{
+                font-family: Jura;
+                font-size: 19px;
+                font-weight: 700;
+                color: #FFFFFF;
+                text-decoration: none;
+                margin-right: 15px;
+            }
+        }
+    }
+}
